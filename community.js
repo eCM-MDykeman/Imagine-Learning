@@ -5,6 +5,4 @@ $(function () {
 
     $('.summary-edit .img-container').css('background-image', 'url("' + summaryEditImg + '")');
 
-
-
 });
