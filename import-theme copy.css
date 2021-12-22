@@ -880,6 +880,13 @@ table.table-condensed a[id*='lnkDisplay'] {
       border: 0;
   }
 
+  .announcements .SearchResults.HLLandingControl ul li {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
   .tabbed-content .SearchResults.HLLandingControl ul li .content-tags .fa-tags, 
   .interior .SearchResults.HLLandingControl ul li .content-tags .fa-tags {
       display: none;
@@ -1279,7 +1286,7 @@ table.table-condensed a[id*='lnkDisplay'] {
   height: 197px;
 }
 
-.featured-slider ul li .img-container[style*="undefined"] {
+.featured-slider ul li .img-container[style*="undefined"], .img-container[style*="undefined"] {
   background-image: url('https://higherlogicdownload.s3.amazonaws.com/EDGENUITY/8c9c4374-f586-4f3d-bc22-0dcb2ef4d419/UploadedImages/imagine-learning-default.png') !important;
 }
 
@@ -1466,7 +1473,6 @@ span.label.label-admin {
   display: none;
 }
 
-
 ul.pagination li:nth-of-type(3) a {
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -1481,6 +1487,35 @@ ul.pagination li:nth-of-type(3) a {
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
   color: #000;
+}
+
+.announcements > div > div > div[id*="MainCopy"] {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03), 0px 4px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.announcements div[id*="MainCopy"] ul li { 
+  border: 0;
+  font-size: 15px;
+  line-height: 22px;
+  color: #545454;
+}
+
+#MPOuterMost .announcements div[id*="MainCopy"] ul li .title-row .col-md-9 {
+  width: 100%;
+  padding-left: 0 !important;
+ }
+ 
+.announcements div[id*="MainCopy"] ul li .title-row .col-md-3 {
+  display: none;
+}
+
+/* CLP */
+
+.community-home .tabbed-content {
+  padding-top: 0;
 }
 
 /* Community Nav Wrap */
