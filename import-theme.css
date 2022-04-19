@@ -3,7 +3,6 @@
   overflow-x: hidden;
 }
 
-
 a {
   color: #666666;
   text-decoration: underline;
@@ -1735,6 +1734,27 @@ table.table-condensed a[id*='lnkDisplay'] {
   position: relative;
 }
 
+.interior.courseware #MPInnerPageBanner {
+  background: #25d1cb;
+}
+
+.interior.instructionalservices #MPInnerPageBanner {
+  background: #f25700;
+}
+
+  
+.interior.core #MPInnerPageBanner {
+  background: #0248d0;
+}
+
+.interior.supplemental #MPInnerPageBanner {
+  background: #005653;
+}
+
+.nested-community {
+  padding-bottom: 15px;
+}
+
 .interior #MPInnerPageBanner::before {
   content: '';
   position: absolute;
@@ -1940,6 +1960,7 @@ span.label.label-admin {
   border-radius: 40px;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.03), 0px 4px 30px rgba(0, 0, 0, 0.08);
   background-color: white;
+  margin-bottom: 15px;
 }
 
 .nav-pills>li.active>a,
@@ -2019,6 +2040,16 @@ span.label.label-admin {
 .profile .section1 .digitalRibbonDisplay .pull-left>div {
   margin-left: auto;
   margin-right: auto;
+}
+
+.community-library > .row-wide:first-of-type .col-md-4 {
+  width: 100%;
+}
+
+/* Interior */
+
+.interior .event-dates {
+  padding-top: 15px;
 }
 
 
@@ -2147,6 +2178,10 @@ span.label.label-admin {
   display: inline-block;
   margin-right: 10px;
 }
+
+
+
+/* Responsive */
 
 @media (max-width: 1200px) {
   .slider ul.slick-dots {
