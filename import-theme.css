@@ -3,6 +3,7 @@
   overflow-x: hidden;
 }
 
+
 a {
   color: #666666;
   text-decoration: underline;
@@ -1947,6 +1948,12 @@ span.label.label-admin {
   padding-top: 0;
 }
 
+.CommunityManagementGear ul li>div a {
+  display: block;
+  text-align: left;
+  margin: 0 -10px !important;
+}
+
 /* Community Nav Wrap */
 
 .clp-upper-wrapper {
@@ -2017,6 +2024,15 @@ span.label.label-admin {
 .profile-tab-wrap .nav-pills>li>a .caret {
   border-top-color: #9c9c9c;
   border-bottom-color: #9c9c9c;
+}
+
+.profile .profileContactOptions a[id*="EmailAddress"],
+.HLWelcome.HLWelcomeHeader .panel-body .col-md-9 h4 + div{
+  word-wrap: break-word;
+}
+
+.HLWelcome.HLWelcomeHeader .panel-body .col-md-9 h4 + div{
+  white-space: initial;
 }
 
 #MPOuterMost a[id*="MessagesCount"] {
